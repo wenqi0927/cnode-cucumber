@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "login":"./node_modules/.bin/cucumber.js.cmd -t @login",
+    "register":"./node_modules/.bin/cucumber.js.cmd -t @register"
   },
   "author": "",
   "license": "ISC",
