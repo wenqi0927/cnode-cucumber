@@ -5,14 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "login":"./node_modules/.bin/cucumber.js.cmd -t @login",
-    "register":"./node_modules/.bin/cucumber.js.cmd -t @register"
+    "login": "./node_modules/.bin/cucumber.js.cmd -t @login ",
+    "register": "./node_modules/.bin/cucumber.js.cmd -t @register -f json:./report/report.json && node report.js",
+    "topic": "./node_modules/.bin/cucumber.js.cmd -t @topic"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.17.0",
     "chromedriver": "^2.33.2",
     "cucumber": "^3.0.6",
+    "multiple-cucumber-html-reporter": "^1.1.0",
     "selenium-webdriver": "^3.6.0"
   }
 }

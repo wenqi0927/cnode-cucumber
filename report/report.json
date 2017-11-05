@@ -1,0 +1,326 @@
+[
+  {
+    "description": "测试Cnode社区注册功能\n测试人：齐雯\n时间：2017/10/28",
+    "keyword": "Feature",
+    "name": "用户注册",
+    "line": 2,
+    "id": "用户注册",
+    "tags": [
+      {
+        "name": "@register",
+        "line": 1
+      }
+    ],
+    "uri": "features\\register.feature",
+    "elements": [
+      {
+        "description": "     进入注册页面",
+        "id": "用户注册;不同注册场景",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "不同注册场景",
+        "tags": [
+          {
+            "name": "@register",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\hooks.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4096
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "进入注册页面",
+            "match": {
+              "location": "features\\register.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2038
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "用户名输入\"apple\",密码输入\"\",重复密码输入\"\",邮箱输入\"\"",
+            "match": {
+              "location": "features\\register.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 631
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "点击注册，应该收到\"×\n信息不完整。\"",
+            "match": {
+              "location": "features\\register.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 586
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73
+            }
+          }
+        ]
+      },
+      {
+        "description": "     进入注册页面",
+        "id": "用户注册;不同注册场景",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "不同注册场景",
+        "tags": [
+          {
+            "name": "@register",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\hooks.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3537
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "进入注册页面",
+            "match": {
+              "location": "features\\register.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1929
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "用户名输入\"\",密码输入\"\",重复密码输入\"\",邮箱输入\"\"",
+            "match": {
+              "location": "features\\register.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 551
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "点击注册，应该收到\"×\n信息不完整。\"",
+            "match": {
+              "location": "features\\register.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 582
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 117
+            }
+          }
+        ]
+      },
+      {
+        "description": "     进入注册页面",
+        "id": "用户注册;不同注册场景",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "不同注册场景",
+        "tags": [
+          {
+            "name": "@register",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\hooks.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3269
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "进入注册页面",
+            "match": {
+              "location": "features\\register.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2969
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "用户名输入\"\",密码输入\"123456\",重复密码输入\"\",邮箱输入\"\"",
+            "match": {
+              "location": "features\\register.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 576
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "点击注册，应该收到\"×\n信息不完整。\"",
+            "match": {
+              "location": "features\\register.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 551
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 113
+            }
+          }
+        ]
+      },
+      {
+        "description": "     进入注册页面",
+        "id": "用户注册;不同注册场景",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "不同注册场景",
+        "tags": [
+          {
+            "name": "@register",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\hooks.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3178
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "进入注册页面",
+            "match": {
+              "location": "features\\register.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2143
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "用户名输入\"apple\",密码输入\"123456\",重复密码输入\"654321\",邮箱输入\"1272379959@qq.com\"",
+            "match": {
+              "location": "features\\register.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 809
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "点击注册，应该收到\"×\n两次密码输入不一致。\"",
+            "match": {
+              "location": "features\\register.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 663
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\hooks.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 102
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
